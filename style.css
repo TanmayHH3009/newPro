@@ -111,11 +111,12 @@ div.leftsection {
 }
 
 .webdev {
-    display: block;
-    width: 500px;
+    display: flex;
+    width: 530px;
     height: 30px;
     margin: 84px;
     color: #ffe926;
+    margin-left: -6px;
 }
 
 .rightsection img {
@@ -131,12 +132,13 @@ div.leftsection {
     font-size: 1.9rem;
 }
 .appdev {
-    display: block;
-width: 500px;
-height: 30px;
-margin: -107px;
-float: right;
-color: #ffe926;
+    display: flex;
+    width: 483px;
+    height: 8px;
+    margin: -105px;
+    float: right;
+    color: #ffe926;
+    margin-right: 20px
 }
 .leftsection img {
     width: 500px;
@@ -144,7 +146,7 @@ color: #ffe926;
     display: flex;
     align-content: center;
     float: left;
-  
+    margin-left: -126px;
   }
   
   .Newsection img{
@@ -152,14 +154,16 @@ color: #ffe926;
     margin: 35px;
     float: right;
     display: flex;
-    margin-top: -34px;
-  }
+    margin-top: 122px;
+}
+  
   .viddev{
     display: block;
-    width: 500px;
+    width: 464px;
     height: 30px;
     margin: 52px;
-   color: #ffe926;
+    color: #ffe926;
+    margin-left: 2px;
   }
  
 
@@ -223,6 +227,7 @@ margin-top: 64px;
     float:right;
     margin-right: 391px;
     color: rgb(167, 185, 201);
+    animation: red cubic-bezier(0.075, 0.82, 0.165, 1) 2 cubic-bezier(0.175, 0.885, 0.32, 1.275) linear;
 
    }
    .c2{
@@ -232,6 +237,7 @@ margin-top: 64px;
    .c3{
     margin-left:57px;
     color: rgb(245, 87, 87);
+    
    }
 @media screen and (max-width:800px){
     nav {
